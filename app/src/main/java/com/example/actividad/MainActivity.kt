@@ -74,6 +74,17 @@ fun ViewHolaCurso() {
     }
 }
 
+fun Componente1Mejorado() {
+    Button(
+        onClick = { /* Acción */ },
+        colors = ButtonDefaults.buttonColors(
+            containerColor = Color.Blue
+        ),
+        modifier = Modifier.padding(16.dp)
+    ) {
+        Text("Soy el componente 1 mejorado")
+    }
+}
 
 @Preview(showBackground = true)
 @Composable
