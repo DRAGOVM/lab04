@@ -1,0 +1,53 @@
+"# .gitignore para Android" 
+# --- Android / Gradle ---
+# Build folders
+/build/
+/**/build/
+/app/build
+
+# Gradle
+.gradle/
+/gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config (SDK path)
+local.properties
+
+# --- IDE: Android Studio / IntelliJ ---
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/libraries
+
+# --- Compiled / generated ---
+*.class
+*.dex
+*.o
+*.so
+*.apk
+*.ap_
+*.aab
+/out/
+
+# --- Native / NDK ---
+.externalNativeBuild/
+.cxx/
+obj/
+libs/
+
+# --- Signing / keys / secrets ---
+*.jks
+*.keystore
+google-services.json
+
+# --- Crashlytics / Firebase ---
+crashlytics.properties
+crashlytics-build.properties
+
+# --- Misc system files ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+captures/
