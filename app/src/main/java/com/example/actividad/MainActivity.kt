@@ -46,6 +46,15 @@ fun Metodo1(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun Metodo2(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Modelo2 $name!",
+        modifier = modifier
+    )
+}
+
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
